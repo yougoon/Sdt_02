@@ -1,0 +1,95 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+* {
+    background-color: azure;
+}
+
+header {
+    background-color: #343a40;
+}
+
+footer {
+    background-color: #343a40;
+}
+
+.src_part {
+    margin-bottom: 20px;
+}
+
+#player_dis {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.innerItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 100%;
+    max-width: 250px;
+}
+
+.innerItem img {
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+}
+
+.text_des {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.text_des h1 {
+    font-size: 1.2rem;
+    color: #343a40;
+}
+
+.text_des .tag {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+.text_des .details {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-top: 10px;
+}
+
+.text_des button {
+    margin: 5px;
+}
+
+.cart_container {
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 280px;
+    position: sticky;
+    top: 100px;
+    height: fit-content;
+}
+
+.cart_container h3,
+.cart_container h2 {
+    color: #343a40;
+}
+
+.cart_container #total {
+    font-weight: bold;
+}
+
+footer p {
+    margin: 0;
+}
