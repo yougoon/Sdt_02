@@ -1,0 +1,14 @@
+.innerItem{
+    display: flex;
+    border: 1px solid blue;
+    margin: 20px;
+
+}
+.itemImg{
+    width: 100%;
+    height: 100%;
+}
+#food_display{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+}
